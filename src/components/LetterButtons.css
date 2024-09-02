@@ -1,0 +1,33 @@
+/* Letter Buttons Container */
+.letter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Individual Letter Button Styles */
+.letter-button {
+  background-color: #000;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Disabled Letter Button Styles */
+.letter-button:disabled {
+  background-color: #555;
+  color: #999;
+  border: 1px solid #777;
+}
+
+/* Hover Effect for Enabled Letter Buttons */
+.letter-button:hover:not(:disabled) {
+  background-color: #333;
+  color: #ff00ff;
+  border-color: #ff00ff;
+}

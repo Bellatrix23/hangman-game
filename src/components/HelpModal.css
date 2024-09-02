@@ -1,0 +1,74 @@
+/* Help Modal Container */
+.help-modal {
+  position: relative;
+  text-align: center;
+}
+
+/* Help Button Styles */
+.help-button {
+  background-color: #000;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+/* Help Button Hover Effect */
+.help-button:hover {
+  background-color: #333;
+  color: #ff00ff;
+  border-color: #ff00ff;
+}
+
+/* Modal Content Layout */
+.modal-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+/* Modal Background Overlay */
+.modal-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+/* Modal Box Styles */
+.modal-box {
+  position: relative;
+  z-index: 2;
+  background: #222;
+  color: #00ffff;
+  padding: 20px;
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Close Button Styles */
+.close-button {
+  background-color: #000;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Close Button Hover Effect */
+.close-button:hover {
+  background-color: #333;
+  color: #ff00ff;
+  border-color: #ff00ff;
+}

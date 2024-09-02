@@ -1,0 +1,44 @@
+/* GameStatus Styling */
+.game-status {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.status-message {
+  font-size: 20px;
+  color: #ff4dff;
+}
+
+.revealed-word {
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.definitions {
+  font-size: 16px;
+  color: #00ffff;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.synonyms {
+  font-size: 14px;
+  color: #ff00ff;
+  margin-top: 5px;
+}
+
+.restart-button {
+  background-color: #000;
+  color: #00ffff;
+  border: 1px solid #00ffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.restart-button:hover {
+  background-color: #222;
+  color: #ff00ff;
+  border-color: #ff00ff;
+}

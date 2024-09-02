@@ -1,0 +1,54 @@
+/* GameBoard styling */
+.game-board {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.word {
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+
+.letter {
+  color: #00ffff;
+}
+
+.underscore {
+  color: #fff;
+  margin: 0 5px;
+}
+
+/* Hangman SVG styles */
+.hangman-svg {
+  stroke: #ff4dff;
+  stroke-width: 4;
+}
+
+/* Gallows */
+.hangman-base,
+.hangman-pole,
+.hangman-beam,
+.hangman-rope {
+  stroke: #ff00ff;
+}
+
+/* Head */
+.hangman-head {
+  fill: none;
+  stroke: #ff00ff;
+}
+
+/* Body */
+.hangman-body {
+  stroke: #00ffff;
+}
+
+/* Arms */
+.hangman-arm {
+  stroke: #00ffff;
+}
+
+/* Legs */
+.hangman-leg {
+  stroke: #00ffff;
+}
